@@ -18,5 +18,7 @@ matrix:
   exclude:
     - jdk: openjdk7
       env: test=name
+    - jdk: openjdk7
+      env: foo=bar
 
 #cache: true
